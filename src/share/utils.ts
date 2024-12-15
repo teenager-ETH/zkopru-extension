@@ -9,7 +9,7 @@ export async function sleep(ms: number) {
 /**
  * @description wait until predicate returns true. checks every *interval* ms
  * @param  predicate checks every *interval* ms. if this function returns true, promise resolves
- * @param  interval every miliseconds predicate is checked
+ * @param  interval every milliseconds predicate is checked
  */
 export async function waitUntil(
   predicate: () => boolean,
